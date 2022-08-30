@@ -1,4 +1,5 @@
-Lab #1 was a colloboration between Ravi Niteesh and Tony Wan
+
+Lab #1 was a collaboration between Ravi Niteesh (Technical Director) and Tony Wan (Creative Director)
 
 # Staging Interaction
 
@@ -69,8 +70,8 @@ _Goals:_ The goal of the user is to appropriately signal to others whether or no
 
 \*\***Include pictures of your storyboards here**\*\*
 
+![Mpath Storyboard](https://user-images.githubusercontent.com/111993874/187286818-778fd870-329e-4182-be2f-722d69c9636d.jpg)
 
-![IMG_0303](https://user-images.githubusercontent.com/111998430/187338462-b6b20e84-66a8-490e-a205-6115694d7a78.jpg)
 
 
 \*\***Summarize feedback you got here.**\*\*
@@ -125,7 +126,13 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
+![Untitled Notebook (5)-5](https://user-images.githubusercontent.com/111993874/187345097-23142e7d-a340-44f7-867e-451cdcf7972e.jpg)
+![Untitled Notebook (5)-6](https://user-images.githubusercontent.com/111993874/187345111-a70b620e-6bec-4404-931e-0ea34b240fc7.jpg)
+![Untitled Notebook (5)-7](https://user-images.githubusercontent.com/111993874/187345117-4be05227-f7a2-4942-af40-3c894e9827ef.jpg)
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+Since camera is required for facial recognition, privacy issues can be of concern. In the office setting, it would be easier to seamlessly incorporate into existing decor. As for the home setting, there is already a high rate of adoption for Amazon and Google home devices. Incorporating our prototype into familiar products would be quite easy. 
 
 
 ## Part F. Record
@@ -146,7 +153,7 @@ Prototype Demonstration: https://drive.google.com/file/d/1UhUJWy-o_MBNUYZ-7xIUqb
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 
 
-Ravi Niteesh for his coding expertise. Tony for his creativity and storyboarding.Antoine St. Victor for his feedback. Nishita Hedge for her artistic storyboard. Rohit George for being a great cameraman.  
+Ravi Niteesh for his coding expertise. Antoine St. Victor for his feedback. Nishita Hedge for her artistic storyboard. Rohit George for being a great cameraman.  
 
 GitHub and StackOverFlow were used for coding resources. 
 
