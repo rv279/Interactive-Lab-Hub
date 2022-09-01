@@ -1,4 +1,5 @@
 
+Lab #1 was a collaboration between Ravi Niteesh (Technical Director) and Tony Wan (Creative Director)
 
 # Staging Interaction
 
@@ -57,27 +58,26 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-To stage an interaction with your interactive device, think about:
-
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
-
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
-
-_Activity:_ What is happening between the actors?
-
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
-
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
-\*\***Describe your setting, players, activity and goals here.**\*\*
+_Setting:_ The interaction with the device would be in an office setting. The interactive device is capable of facial recognition, primarily emotions. When the user is upset, it would display a red light signaling others to not disturb the person. When the user is happy, it would display a green light signaling others that it is okay to come in.
 
-Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
+_Players:_ The user is the primary person to interact with the device, while the light signals are there for everyone else considering to walk into the users office
+
+_Activity:_ Imagine the user is a manager having a rough day at work. The device would recognize the sad facial expression and display a red light signaling to others that it is not a great time to be disturbed. On the other end of the spectrum, the manager is very happy and the device recognizes a happy facial expression and displays a green light, indicating that it is a good time to come in. 
+
+_Goals:_ The goal of the user is to appropriately signal to others whether or not it is a good time to enter. 
 
 \*\***Include pictures of your storyboards here**\*\*
 
-Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
+![Mpath Storyboard](https://user-images.githubusercontent.com/111993874/187286818-778fd870-329e-4182-be2f-722d69c9636d.jpg)
+
+
 
 \*\***Summarize feedback you got here.**\*\*
+
+1. Costs for facial recognition device may deter consumers from purchasing. Users can opt for a switch like option.
+2. Would like to see an option to change the entire room's lighting to help improve mood.
 
 
 ## Part B. Act out the Interaction
@@ -86,7 +86,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+  Yes, facial recognition can be quite finicky and not always pick up subtle facial expressions.
+
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+
+  Yes, for new itereations, we can include audio (music output) based on preset playlists depending on different moods. 
 
 
 ## Part C. Prototype the device
@@ -100,6 +104,8 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
+
+Instructions were clear for setting up server and phone. Running tinkerbelle was quite easy considering my minimal coding background. 
 
 
 ## Part D. Wizard the device
@@ -120,22 +126,41 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
+![Untitled Notebook (5)-5](https://user-images.githubusercontent.com/111993874/187345097-23142e7d-a340-44f7-867e-451cdcf7972e.jpg)
+![Untitled Notebook (5)-6](https://user-images.githubusercontent.com/111993874/187345111-a70b620e-6bec-4404-931e-0ea34b240fc7.jpg)
+![Untitled Notebook (5)-7](https://user-images.githubusercontent.com/111993874/187345117-4be05227-f7a2-4942-af40-3c894e9827ef.jpg)
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+Since camera is required for facial recognition, privacy issues can be of concern. In the office setting, it would be easier to seamlessly incorporate into existing decor. As for the home setting, there is already a high rate of adoption for Amazon and Google home devices. Incorporating our prototype into familiar products would be quite easy. 
 
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+Should this be shared on a different platform? 
 
+The Angry Manager: https://drive.google.com/file/d/1uUxWAj3-BHX6YE9QFtZRLEMoAYM3MGYz/view?usp=sharing
+
+The Sad Manager: https://drive.google.com/file/d/14lmi8b9GkfV6-_ogH7Dc5enn0I35B8OA/view?usp=sharing
+
+The Happy Manager: https://drive.google.com/file/d/13-JQ0NVM-HHrpMXMwooOt0wpCd7CRWoR/view?usp=sharing
+
+Prototype Demonstration: https://drive.google.com/file/d/1UhUJWy-o_MBNUYZ-7xIUqbOQHMj1T59p/view?usp=sharing
+
+
+\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+
+
+Ravi Niteesh for his coding expertise. Antoine St. Victor for his feedback. Nishita Hedge for her artistic storyboard. Rohit George for being a great cameraman.  
+
+GitHub and StackOverFlow were used for coding resources. 
 
 
 # Staging Interaction, Part 2 
 
 This describes the second week's work for this lab activity.
-
 
 ## Prep (to be done before Lab on Wednesday)
 
