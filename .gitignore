@@ -1,4 +1,4 @@
 .DS_Store
 *.tflite
 *.scorer
-/Lab 1/node_modules
+/Lab_1/node_modules
