@@ -162,12 +162,9 @@ GitHub and StackOverFlow were used for coding resources.
 
 This describes the second week's work for this lab activity.
 
-## Prep (to be done before Lab on Wednesday)
-
-You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
-
 \*\***Summarize feedback from your partners here.**\*\*
 
+Based on the feedback from our classmates, we added an audio output with verbal reply as well as music depending on the emotional response when interacting with the device. One feedback noted that some employees may forget to look at the device, so we added a step in which the employee interacts with the device to get a sense of the mood the manager is in. Another suggested that we include audio feedback of the emotion, so we added specific responses similar to what a secretary may say when someone wants to speak with the manager. 
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
@@ -176,3 +173,19 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+<img width="1340" alt="Mpath angry 2" src="https://user-images.githubusercontent.com/111993874/189565847-7a5a3d62-fb55-4a79-80b3-2385abd090e8.png">
+<img width="1309" alt="Mpath happy 2" src="https://user-images.githubusercontent.com/111993874/189565857-904414d6-2ddf-4606-88f3-f9bdc8d5a375.png">
+<img width="1192" alt="Mpath toy" src="https://user-images.githubusercontent.com/111993874/189565871-0cb641b3-50f1-4c9b-b69e-af87991d9109.png">
+
+An employee is reminded to check the status of their manager. Employee interact with the device (Name Placard) by pressing a button and getting visual and audio feedback. A camera within the office could capture the expression of the manager. 
+<img width="1050" alt="Screen Shot 2022-09-11 at 10 58 40 PM" src="https://user-images.githubusercontent.com/111993874/189565952-cd948152-1f67-4247-bfad-9c99c452f4e3.png">
+
+<img width="554" alt="Screen Shot 2022-09-11 at 11 09 55 PM" src="https://user-images.githubusercontent.com/111993874/189567001-abc68c9c-aba3-4999-a5bb-a05ca9969562.png">
+
+A user interacts with the device (toy). The eyes of the toy can incorporate a small camera to analyze the users emotions and provide mood light changes as well as provide appropriate music curated for the user's vsrying emotions. 
+<img width="878" alt="Screen Shot 2022-09-11 at 10 59 51 PM" src="https://user-images.githubusercontent.com/111993874/189566053-11f4063c-2b5f-46d1-b73c-aead5a34cf22.png">
+
+Part 2 Video, integrating feedback: https://drive.google.com/file/d/1vtfnqzniwe4KIOa5T25PgkK3gmmX5TKj/view?usp=sharing
+
+Our inspiration and credit goes to one of the best shows produced, The Office. The video and background are from The Office. 
