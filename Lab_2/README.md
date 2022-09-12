@@ -283,8 +283,8 @@ EXAMPLE 2: when the time is 4 pm
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
  To ehance this capability further 
- - we want to integrate a button click to change the color of the letters that represent time.
- - We want to integrate a button click to the change the base color of the letters that do not represent the time.
+ - we want to integrate a button click to change the color of the letters that represent time(on every click a color is chosen from a range of colors).
+ - We want to integrate a button click to the change the base color of the letters that do not represent the time (on every click a color is chosen from a range of colors).
 
 # Prep for Part 2
 
