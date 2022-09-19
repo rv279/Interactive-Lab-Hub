@@ -276,7 +276,7 @@ EXAMPLE 1: when the time is 3:35 pm
 EXAMPLE 2: when the time is 4 pm
 ![IMG_7333](https://user-images.githubusercontent.com/111998430/189756575-731e3216-633a-4650-9f3e-de6bd91a73c3.jpg)
 
-
+Here is the Video of our clock: https://drive.google.com/file/d/1eYPh8WvP0N6_Vf61NNlKcQ_PHiRWDX21/view?usp=sharing
  
 \*\*\***Take a video of your PiClock.**\*\*\*
 
