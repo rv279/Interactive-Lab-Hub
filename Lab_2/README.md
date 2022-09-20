@@ -320,5 +320,5 @@ Tony decided to come up with a logic so that the color combination generated is 
 ![Comp _horizontal (1)](https://user-images.githubusercontent.com/111998430/191116544-2bb860ac-e206-4e7b-a24e-6b1109fe39b1.jpg)
  Pic Credits: https://copic.too.com/blogs/educational/analogous-complimentary-and-split-complementary-color-schemes
  
-3. On click of button A we only render the "Array To Print" and do not render the "Master Letter Array"
+3. On click of button A we only render the "Array To Print" and do not render the "Master Letter Array", persisting the color selection previously made
 
