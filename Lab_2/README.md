@@ -322,3 +322,19 @@ Tony decided to come up with a logic so that the color combination generated is 
  
 3. On click of button A we only render the "Array To Print" and do not render the "Master Letter Array", persisting the color selection previously made
 
+
+#Recording of our Lab
+
+https://user-images.githubusercontent.com/111998430/191161713-2de91b91-9303-4c52-ae8d-a58829397a3c.mp4
+
+# User Testing 
+User 1: Yongky Arief Kristando <yak6@cornell.edu>
+
+https://user-images.githubusercontent.com/111998430/191157541-d08a9f72-3067-42cc-8d1b-2b36194dee42.mp4
+
+User 2: Rohit George <rg645@cornell.edu>
+
+https://user-images.githubusercontent.com/111998430/191160661-3df3a3b5-fa65-4a79-856a-11a692086a18.mp4
+
+
+
