@@ -1,6 +1,6 @@
 # Contributors
-1. Ravi Niteesh Voleti
-2. Tony Wan
+1. Ravi Niteesh Voleti(rv279)
+2. Tony Wan(tw482)
 # Interactive Prototyping: The Clock of Pi
 
 Does it feel like time is moving strangely during this semester?
