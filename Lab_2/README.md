@@ -308,7 +308,7 @@ Gist of the Feedback we received
 2. Color combinations to be  conteasting
 3. ability to remove background letters and only see the time in letters
 
-#Our Approach for incorporating the above feedback
+# Our Approach for incorporating the above feedback
 
 1. We wanted to have a user interaction to let them choose different color combinations based on click on Button B - Tony and Ravi
 2. The color combinations that show up needs to contrasting so that user can easily read - Tony
@@ -323,7 +323,7 @@ Tony decided to come up with a logic so that the color combination generated is 
 3. On click of button A we only render the "Array To Print" and do not render the "Master Letter Array", persisting the color selection previously made
 
 
-#Recording of our Lab
+# Recording of our Lab
 
 https://user-images.githubusercontent.com/111998430/191161713-2de91b91-9303-4c52-ae8d-a58829397a3c.mp4
 
