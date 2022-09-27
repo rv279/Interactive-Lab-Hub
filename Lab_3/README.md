@@ -110,6 +110,8 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
+![IMG_718923FEC7CA-1](https://user-images.githubusercontent.com/111998430/192426737-5e499407-36a4-4316-a2f7-69236cb93c9e.jpeg)
+
 \*\***Documentation.**\*\*
 
 Technology in video gaming has exploded in the last few years, but the R&D expense and the complexity in programming keeps video games out of reach of many physically disabled gamers . Here is our attempt to create a voice enabled tetris game.
