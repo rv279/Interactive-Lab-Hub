@@ -1,3 +1,6 @@
+# Team
+1. Ravi Niteesh Voleti <rv279@cornell.edu>
+2. Tony Wan <tw482@cornell.edu>
 # Chatterboxes
 **NAMES OF COLLABORATORS HERE**
 [![Watch the video](https://user-images.githubusercontent.com/1128669/135009222-111fe522-e6ba-46ad-b6dc-d1633d21129c.png)](https://www.youtube.com/embed/Q8FWzLMobx0?start=19)
@@ -107,8 +110,31 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
-\*\***Please describe and document your process.**\*\*
+\*\***Documentation.**\*\*
 
+Technology in video gaming has exploded in the last few years, but the R&D expense and the complexity in programming keeps video games out of reach of many physically disabled gamers . Here is our attempt to create a voice enabled tetris game.
+
+## Phase 1: Tetris Game
+  * Step 1: Initialize the board size
+  * Step 2: Define shapes and motion
+  * Step 3: Define moves a user can perform ( Left, Right, Rotate Clockwise and anticlockwise, quit game)
+  * Step 4: Generate a random piece and define a position( co-ordinates in the array when the piece should start)
+  * Step 5: Print the board
+  * Step 6: Read user input
+  * Step 7: Move the piece ensuring game is not over and it does not go beyond the boundaries.
+  * Step 8: Seek user input again and perform Step 7
+  * Step 9: if the game is over, quit the game.
+## Phase 2: Interaction with Audio
+  * Step 1: Initialize a recognizer
+  * Step 2: Start an infinite loop
+  * Step 3: Listen to microphone for about 200 milliseconds
+  * Step 4: Using google API to convert audio into text
+## Phase 3: Combining Phase 1 and Phase 2
+  * Step 1: Instead of taking the input from the keyboard, listen of the voice of the user for 200-300 milliseconds(Phase 1 - Step 6)
+  * Step 2: convert Speech into text 
+  * Step 3: Based on the text, decide the action
+  * Step 4: continue the above steps iteratively till the game is complete.
+  
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
