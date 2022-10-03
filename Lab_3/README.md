@@ -336,21 +336,22 @@ https://user-images.githubusercontent.com/111998430/193691427-0c8ac9fd-adea-4207
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
+# User 1: Krishna Venkata
+
+https://user-images.githubusercontent.com/111998430/193699222-cb6c375b-d342-4db2-801e-5b9c231607e1.mp4
+
+
+
 Answer the following:
+Below is the Gist of user feedback from 3 users
 
-### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
-
-### What worked well about the controller and what didn't?
-
-\*\**your answer here*\*\*
+### What worked well about the system and the controller, and what didn't?
+Conversion of user voice into a game move went well. Background noise and conversion is a little slow and sometimes not accurate, which is partially because of the way user pronuounces the words
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
-
+The voice recognition system needs lots of testing to ensure user's accent is properly converted.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
-
+Voice enabled systems needs to process lot of accents, also when the text does not match we need to build an AI model smart enough to find the nearest action. Once this is achieved, this can be used in a lot of devices, to ensure people with disability can use a lot of appliances without physical interaction.
