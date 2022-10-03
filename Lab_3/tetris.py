@@ -115,6 +115,7 @@ ROTATE_CLOCKWISE = 's'
 NO_MOVE = 'e'
 QUIT_GAME = 'q'
 r = sr.Recognizer()
+MyText = "null"
 
 def print_board(board, curr_piece, piece_pos, error_message=''):
     """
@@ -177,7 +178,8 @@ def print_board(board, curr_piece, piece_pos, error_message=''):
 
     if error_message:
         print(error_message)
-    print("Your move:",)
+    print("value of text is",MyText)
+
 
 
 def init_board():
@@ -512,33 +514,21 @@ def can_rotate_clockwise(board, curr_piece, piece_pos):
     curr_piece = rotate_clockwise(curr_piece)
     return overlap_check(board, curr_piece, piece_pos)
 
+def callback(recognizer, audio):
+    global MyText
+    try:
+        MyText = recognizer.recognize_google(audio)
+        MyText = MyText.lower()
+        print("Google Speech Recognition thinks you said " +MyText )
+        
+    except sr.UnknownValueError:
+        print("Google Speech Recognition could not understand audio")
+    except sr.RequestError as e:
+        print("Could not request results from Google Speech Recognition service; {0}".format(e))
 
 def play_game():
-
-    """
-    Parameters:
-    -----------
-    None
-
-    Returns:
-    --------
-    None
-
-    Details:
-    --------
-    - Initializes the game
-    - Reads player move from the STDIN
-    - Checks for the move validity
-    - Continues the gameplay if valid move, else prints out error msg
-      without changing the board
-    - Fixes the piece position on board if it cannot be moved
-    - Pops in new piece on top of the board
-    - Quits if no valid moves and possible for a new piece
-    - Quits in case user wants to quit
-
-    """
-
     # Initialize the game board, piece and piece position
+    global MyText
     board = init_board()
     curr_piece = get_random_piece()
     piece_pos = get_random_position(curr_piece)
@@ -546,44 +536,56 @@ def play_game():
     move_text=""
     # Get player move from STDIN
     #player_move = input()
+    m = sr.Microphone()
+    with m as source2:
+     r.adjust_for_ambient_noise(source2)
+    stop_listening = r.listen_in_background(m, callback)
     while (not is_game_over(board, curr_piece, piece_pos)):
         #player_move = input()
        # player_move = keyboard.read_key(suppress = True)
         #print("you pressed: ",player_move)
         ERR_MSG = ""
         do_move_down = False
-        with sr.Microphone() as source2:
-            audio2 = r.listen(source2)
-            MyText = r.recognize_google(audio2)
-            MyText = MyText.lower()
-            #move_text=MyText
-            print("text is: "+MyText)
+        # with sr.Microphone() as source2:
+        #     audio2 = r.listen(source2)
+        #     MyText = r.recognize_google(audio2)
+        #     MyText = MyText.lower()
+        #     #move_text=MyText
+        print("text is: "+MyText)
+        
+
         if MyText=='left':
             if can_move_left(board, curr_piece, piece_pos):
                 piece_pos = get_left_move(piece_pos)
                 do_move_down = True
+                MyText="null"
+
             else:
                 ERR_MSG = "Cannot move left!"
         elif MyText=='right':
             if can_move_right(board, curr_piece, piece_pos):
                 piece_pos = get_right_move(piece_pos)
                 do_move_down = True
+                MyText="null"
             else:
                 ERR_MSG = "Cannot move right!"
         elif MyText=='anti':
             if can_rotate_anticlockwise(board, curr_piece, piece_pos):
                 curr_piece = rotate_anticlockwise(curr_piece)
                 do_move_down = True
+                MyText="null"
             else:
                 ERR_MSG = "Cannot rotate anti-clockwise !"
         elif MyText=='rotate':
             if can_rotate_clockwise(board, curr_piece, piece_pos):
                 curr_piece = rotate_clockwise(curr_piece)
                 do_move_down = True
+                MyText="null"
             else:
                 ERR_MSG = "Cannot rotate clockwise!"
         elif MyText=='go':
             do_move_down = True
+            MyText="null"
         elif MyText=='quit':
             print("Bye. Thank you for playing!")
             sys.exit(0)
