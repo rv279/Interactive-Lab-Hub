@@ -322,6 +322,17 @@ Continue the process until the game is over of user says quit.
 
 *Include videos or screencaptures of both the system and the controller.*
 
+# Video of game without user's voice
+
+
+https://user-images.githubusercontent.com/111998430/193690328-3125c278-1076-42dc-a77b-7515d4158a96.MOV
+
+# Video with the users interaction
+
+
+https://user-images.githubusercontent.com/111998430/193691427-0c8ac9fd-adea-4207-b900-5b69d7d1b25f.mp4
+
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
