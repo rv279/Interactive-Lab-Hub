@@ -359,4 +359,4 @@ The voice recognition system needs lots of testing to ensure user's accent is pr
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-Voice enabled systems needs to process lot of accents, also when the text does not match we need to build an AI model smart enough to find the nearest action. Once this is achieved, this can be used in a lot of devices, to ensure people with disability can use a lot of appliances without physical interaction.
+Voice enabled systems needs to process lot of accents, also when the text does not match we need to build an AI model smart enough to find the nearest action. Once this is achieved, this can be used in a lot of devices, to ensure people with disability can use a lot of appliances without physical interaction. Apart from voice, we can use gesture recognition through eye movement which help disabled people.
