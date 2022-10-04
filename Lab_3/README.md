@@ -340,10 +340,15 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 https://user-images.githubusercontent.com/111998430/193699222-cb6c375b-d342-4db2-801e-5b9c231607e1.mp4
 
+# User 2: Sneha Suresh
+
+
+https://user-images.githubusercontent.com/111998430/193708939-dc6e0eee-6ad8-4c44-90c1-21be8a414c5a.mp4
+
 
 
 Answer the following:
-Below is the Gist of user feedback from 3 users
+Below is the Gist of user feedback from 2 users
 
 ### What worked well about the system and the controller, and what didn't?
 Conversion of user voice into a game move went well. Background noise and conversion is a little slow and sometimes not accurate, which is partially because of the way user pronuounces the words
