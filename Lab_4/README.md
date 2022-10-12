@@ -308,6 +308,34 @@ Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
+Color blindness — or more accurately, poor or deficient color vision — is an inability to see the difference between certain colors. Though many people commonly use the term "color blind" for this condition, true color blindness — in which everything is seen in shades of black and white — is rare.
+
+The below image describes how a color blinded person will see an apple
+
+![image](https://user-images.githubusercontent.com/111998430/195458643-d28ef7e3-d361-4bcf-8553-9974fe990157.png)
+
+So the problem we are trying to solve is how can a color blinded person recognize the right color?
+
+## How are we solving this problem
+
+Step 1: A user brings an object close to the sensor.
+
+Step 2: the sensor detects the values of the R G B 
+
+Step 3: We use **webcolors** library to convert the R G B values to an actual name of a color
+
+Step 4: The question that arises is, what if the sensor cannot detect the right color?
+
+Step 5: We plot the R G B values of known color names in a 3D space and calculate the **Euclidean Distance** between the knowsn colors and the values captured by the sensor. We choose that color whose distance is minimum, which is essentially the "CLOSEST COLOR".
+
+![image](https://user-images.githubusercontent.com/111998430/195461549-0604cb68-528e-461d-8ee6-d19a232cfacf.png)
+
+ **(X1,Y1,Z1) are the RGB values from the sensor and (X2,Y2,Z2) are the RGB values of a known Color **
+
+## PROTOTYPE OF THE SYSTEM
+
+![image](https://user-images.githubusercontent.com/111998430/195461218-7f7da609-642d-4ebb-a0f1-9d0a574e2702.png)
+
 
 LAB PART 2
 
