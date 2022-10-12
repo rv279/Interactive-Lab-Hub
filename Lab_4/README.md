@@ -336,7 +336,19 @@ Step 5: We plot the R G B values of known color names in a 3D space and calculat
 
 ## PROTOTYPE OF THE SYSTEM
 
+### How the system would look like?
 ![image](https://user-images.githubusercontent.com/111998430/195461218-7f7da609-642d-4ebb-a0f1-9d0a574e2702.png)
+
+### How the system would behave?
+
+## When a cap was placed closed to the sensor
+<img width="441" alt="image" src="https://user-images.githubusercontent.com/111998430/195463706-88acf62c-4492-41fa-ba52-355eeb8a2b86.png">
+
+## Zoom-in version to show how the color is displayed on the PI
+<img width="763" alt="image" src="https://user-images.githubusercontent.com/111998430/195463747-8c37f79c-c5eb-4da0-83f1-e7759e767f69.png">
+
+The system could not find the actual color, so it finds the closest color and shows it.
+
 
 
 LAB PART 2
