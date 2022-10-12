@@ -1,6 +1,7 @@
 # Ph-UI!!!
-
-**NAMES OF COLLABORATORS HERE**
+# Team
+1. Ravi Niteesh Voleti <rv279@cornell.edu>
+2. Tony Wan <tw482@cornell.edu>
 
 
 For lab this week, we focus both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. You will think about the physical form the device needs to perform the sensing as well as present the display or feedback about what was sensed. 
@@ -174,7 +175,43 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L
 
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
+## We have tried different sensors and using the RGB sensor for our Lab.
+
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
+
+# Tetris Game with a Joystick
+
+<img width="515" alt="image" src="https://user-images.githubusercontent.com/111998430/195453389-563525e9-02ef-4ea3-8c0f-d90ffdf5839c.png">
+ Question: How do you accommodate clockwise and anti-clockwise movement?
+ Ans: The upside movement can be used for clockwise and the click for anti-clockwise. This breaks the user experience for a gamer.
+
+# Social distancing through distance sensor
+
+<img width="727" alt="image" src="https://user-images.githubusercontent.com/111998430/195453950-d5eb6293-67de-4c35-8130-b4b6b4780744.png">
+
+Question: It has to be smart enough to detect only humans and not other things like a pet or a bag.
+Answer: Have a camera to detect a human and then detect the distance
+
+# Adjust the blinds of a window through a rotary sensor
+![image](https://user-images.githubusercontent.com/111998430/195454274-386df7c1-4dec-4c37-844f-a52197f9e16b.png)
+
+Question: The dial movement to blind movement is dependent on the window height.
+Answer:It needs to be calculated for every window size. Needs a lot of iterations.
+
+# "Color Teller" for color blinded people through a RGB sensor
+
+<img width="631" alt="image" src="https://user-images.githubusercontent.com/111998430/195454543-8bce91b7-b0ec-45e7-b1d7-6bdb22f0a83b.png">
+
+Question: Ability to detect all types of colors
+Answers: Find the closest color .
+
+
+# Minesweeper game through capacitive sensor
+
+<img width="762" alt="image" src="https://user-images.githubusercontent.com/111998430/195454958-2f52bad5-8fb1-4b71-b8d3-e7b52cf5a734.png">
+
+Question: multiple sensors needs to be attached as we increase the difficulty of the game.
+Answers: We need to uniquely determine which sensor is touched and then design where on the sensor the touch happened
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
