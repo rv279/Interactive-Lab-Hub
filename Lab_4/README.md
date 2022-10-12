@@ -217,6 +217,8 @@ Answers: We need to uniquely determine which sensor is touched and then design w
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
+### We chose the "Color Teller" for color blinded people through a RGB sensor
+
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
@@ -258,11 +260,49 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+## Sketch 1
+
+<img width="655" alt="image" src="https://user-images.githubusercontent.com/111998430/195456819-e8ccbd16-2d27-42e8-86c9-3c899c39aea9.png">
+
+Question: How close do we need to keep the object from the box to detect the color
+Answer: Need to test to find out
+
+## Sketch 2
+
+<img width="657" alt="image" src="https://user-images.githubusercontent.com/111998430/195456921-01dff36b-08d7-4bc6-9e44-7b4d0da47d9f.png">
+
+Question: How effective is the sensor when placed below the box. Can the sensor detect the object at an angle? is light a factor in determing the color
+
+## Sketch 3
+
+<img width="635" alt="image" src="https://user-images.githubusercontent.com/111998430/195456952-1b74fcb0-d009-4a13-bdfe-157630f792ce.png">
+
+Question: how frequently does the device needs to be charged? basically, how is the charge consumption when put in use?
+
+
+## Sketch 4
+
+<img width="657" alt="image" src="https://user-images.githubusercontent.com/111998430/195456990-00d8b980-25d9-4c16-8874-00dd288cfe61.png">
+
+Question: how close do we need to place the object from the glasses to detect the color? 
+
+
+## Sketch 5
+
+<img width="824" alt="image" src="https://user-images.githubusercontent.com/111998430/195457083-d86420cd-7455-4c8d-afad-23ce3c45205e.png">
+
+Question: how to ensure the object is the line of the sight(since it is a handheld device)
+
+
+# We chose Sketch 1
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+The prototype can fit on a box, and need to be placed 3-5 cm away from the sensor to get accurate color. The device best works in a well lighted environment.
 
 Build a cardbord prototype of your design.
 
