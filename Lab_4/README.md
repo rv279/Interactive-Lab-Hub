@@ -308,6 +308,8 @@ Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
+### DOCUMENTATION
+
 Color blindness — or more accurately, poor or deficient color vision — is an inability to see the difference between certain colors. Though many people commonly use the term "color blind" for this condition, true color blindness — in which everything is seen in shades of black and white — is rare.
 
 The below image describes how a color blinded person will see an apple
