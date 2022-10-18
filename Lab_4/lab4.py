@@ -119,7 +119,7 @@ while True:
 
     # get the data and print the different channels
     r, g, b, c = apds.color_data
-    print("red: ", r)ßß
+    print("red: ", r)
     print("green: ", g)
     print("blue: ", b)
     print("clear: ", c)
