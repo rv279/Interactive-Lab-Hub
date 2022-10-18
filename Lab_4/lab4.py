@@ -5,6 +5,7 @@ import time
 import board
 import digitalio
 import webcolors
+import pyttsx3
 
 from adafruit_apds9960.apds9960 import APDS9960
 from adafruit_apds9960 import colorutility
@@ -86,6 +87,8 @@ backlight.value = True
 back_text_color="#FFFFFF"
 fore_text_color="#FF0000"
 
+# Audio settings
+engine=pyttsx3.init()
 
 def closest_colour(requested_colour):
     min_colours = {}
@@ -116,7 +119,7 @@ while True:
 
     # get the data and print the different channels
     r, g, b, c = apds.color_data
-    print("red: ", r)
+    print("red: ", r)ßß
     print("green: ", g)
     print("blue: ", b)
     print("clear: ", c)
@@ -148,6 +151,8 @@ while True:
 
     _str=closest_name
     draw.text((x,y),_str,font=font,fill=back_text_color)
+    #engine.say(_str)
+    engine.runAndWait()
 
     # Display image.
     disp.image(image, rotation)
