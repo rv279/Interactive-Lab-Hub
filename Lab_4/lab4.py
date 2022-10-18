@@ -151,7 +151,7 @@ while True:
 
     _str=closest_name
     draw.text((x,y),_str,font=font,fill=back_text_color)
-    #engine.say(_str)
+    engine.say(_str)
     engine.runAndWait()
 
     # Display image.
