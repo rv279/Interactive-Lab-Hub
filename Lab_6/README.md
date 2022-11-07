@@ -182,3 +182,7 @@ Dynamic acceleration forces are non-uniform, and the best example is vibration o
 Calculate the total accelaration using the below formula.
 ![image](https://user-images.githubusercontent.com/111998430/200390886-03c76c34-67d9-47a3-b815-6f6000a321d8.png)
  if the total accelaration is above a threshold, it means there is seismic activity.
+
+
+https://user-images.githubusercontent.com/111998430/200440264-c5226eb4-740c-4231-86e6-6a136c9c437a.mp4
+
